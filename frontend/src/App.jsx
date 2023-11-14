@@ -4,10 +4,12 @@ import About from './Pages/About'
 import Signin from './Pages/Signin'
 import Signup from './Pages/Signup'
 import Profile from './Pages/Profile'
+import NavBar from './components/navBar'
 
 export default function App() {
   return (
     <BrowserRouter >
+      <NavBar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>

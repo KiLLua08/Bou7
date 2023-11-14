@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Signup() {
   return (
-    <div>Signup</div>
+    <div className='flex justify-center mt-52 text-center'>Signup</div>
   )
 }
